@@ -1,0 +1,21 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "window-demo",
+        "description": "OpenFin POC",
+        "url": "http://local:8080/a1.html",
+        "__url": "http://cdn.openfin.co/demos/win-order/a1.html",
+        "uuid": "window_demo",
+        "autoShow": true
+    },
+    "runtime": {
+        "arguments": " --enable-legacy-window",
+        "version": "alpha",
+				"forceLatest": true
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Openfin POC",
+        "name": "window-demo"
+    }
+}
