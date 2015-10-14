@@ -18,6 +18,9 @@ function init() {
     name: 'child1',
     autoShow: true
   }, function() {
+		var version = document.getElementById('version');
+
+		version.innerHTML = fin.desktop.getVersion();
 
 		child1.setAsForeground();
 		
