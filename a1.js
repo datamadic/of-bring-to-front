@@ -29,7 +29,7 @@ function init() {
 			if (evnt.reason === 'unlock') {
 				console.log('sure');
 				//child1.setAsForeground();
-//				setTimeout(child1.setAsForeground.bind(child1), 1);
+				setTimeout(child1.setAsForeground.bind(child1), 1);
 			}
 			
 		}, function () {},function () {});
